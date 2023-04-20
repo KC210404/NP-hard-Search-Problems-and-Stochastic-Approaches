@@ -386,9 +386,6 @@ O/P obtained after:
 11 iterations
 
 Total number of iterations = 160*12*11 = 21,120 using the time complexities discussed.
-Total number of iterations using the brute-force method = 15*4095 = 61,425
-(although there are 30 elements in the covering set, as the union takes place for all combinations considering averagely 15 elements for union)
-Therefore approximately (2/3)rd of the time is saved by this algorithm.
 
 Genetic Algorithm:
 
@@ -401,9 +398,7 @@ Population size: 10
 O/P obtained after: 16 iterations
 
 Total number of iterations = 5*(100+10*12)*16 = 17600
-Total number of iterations using the standard brute-force method as discussed earlier = 61,425
-Therefore approximately (3/5)th of the time is saved by this algorithm.
-
+	
 4.2 Future Scope:
 
 The points/concepts discussed below could be implemented in future for the betterment of the algorithms discussed:
